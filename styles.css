@@ -40,6 +40,8 @@ body {
 #nav-ul {
     font-size: 10px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin: auto;
     margin-right: 100px;
     list-style: none;
@@ -48,7 +50,6 @@ body {
 .nav-link {
     padding: 8px;
     text-align: center;
-    border-right: 0.1px solid white;
 }
 
 .nav-a {
@@ -596,6 +597,7 @@ figcaption {
     .nav-link {
         width: 90px;
         padding: 10px;
+        border-right: 0.1 solid white;
     }
     #welcome-section {
         font-size: 2rem;
