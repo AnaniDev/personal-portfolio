@@ -597,7 +597,7 @@ figcaption {
     .nav-link {
         width: 90px;
         padding: 10px;
-        border-right: 0.1 solid white;
+        border-right: 0.1px solid white;
     }
     #welcome-section {
         font-size: 2rem;
